@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Wrap">
+      <UniqueIdentifier>{22c15579-6835-4e32-9ac1-3112326503f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wrap">
+      <UniqueIdentifier>{e31101fa-557a-481b-a422-246607bddb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AcadFuncs">
+      <UniqueIdentifier>{9de2633b-9471-435c-865e-cd6213cbdf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AcadFuncs">
+      <UniqueIdentifier>{6f49d2aa-5e0e-4dd7-ad03-64ab80033fa8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\acad_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\AcadFuncs.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\XData.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wrap\acad_obj_wrap.h">
+      <Filter>Header Files\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wrap\ads_name_wrap.h">
+      <Filter>Header Files\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wrap\res_buf_wrap.h">
+      <Filter>Header Files\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\wrap_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\Geometry.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\DBObject.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\LayerFuncs.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\AttributeFuncs.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\ARXFuncs.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcadFuncs\UserFuncs.h">
+      <Filter>Header Files\AcadFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\acad_funcs_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wrap\iterator_wrap.h">
+      <Filter>Header Files\Wrap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AcadFuncs\AcadFuncs.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\XData.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wrap\ads_name_wrap.cpp">
+      <Filter>Source Files\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wrap\res_buf_wrap.cpp">
+      <Filter>Source Files\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\Geometry.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\DBObject.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\LayerFuncs.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\AttributeFuncs.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\ARXFuncs.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcadFuncs\UserFuncs.cpp">
+      <Filter>Source Files\AcadFuncs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
